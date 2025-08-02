@@ -12,10 +12,16 @@
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix"
   },
-  "keywords": ["api", "typescript", "clean-architecture", "ddd"],
+  "keywords": [
+    "api",
+    "typescript",
+    "clean-architecture",
+    "ddd"
+  ],
   "author": "Seu Nome",
   "license": "MIT",
   "devDependencies": {
+    "@types/express": "^5.0.3",
     "@types/node": "^20.0.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
@@ -25,7 +31,6 @@
     "vitest": "^1.0.0"
   },
   "dependencies": {
-    "express": "^4.18.0",
-    "@types/express": "^4.17.0"
+    "express": "^4.21.2"
   }
 }

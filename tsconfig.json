@@ -6,6 +6,7 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "removeComments": true,
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
